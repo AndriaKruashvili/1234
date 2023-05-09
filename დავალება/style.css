@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* აქ background color-ი შევცვალე სხვადასხვა ადგილებში */
+  body {
+    background-color: #cc0202;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* აქ header ელემენტს შევუცვალე ფერი და გავსტილე */
+  header {
+    background-color: #41b813;
+    color: #550000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* აქ header ფოტოს ანუ ლოგოს გავუწერე width-ი 100% */
+  header img {
+    max-width: 100%;
+  }
+  
+  /* აქ nav ტაგს ანუ ერთი ფეიჯიდან მეორეზე ნავიგაციის ტაგს შევუცვალე ფერი და პადინგი და გავცენტრე */
+  nav {
+    background-color: #0d5247;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* აქ ნავიგაციის ლინკებს შევუცვალე მარჯინი და პადინგი,და ასევე ბორდერ რადიუსი */
+  nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px; }
+  
+        nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;}
+
+  
+  /* html კოდში მთავარი ინფორმაცია ჩავსვი main თაგში აქ კი მას ზომა და პადინგი შევუცვალე */
+  main {
+    max-width: 807px;
+    margin: 0 auto;
+    padding: 60px;
+  }
+  
+  /* აქ h1 ელემენტი გავცენტრე  */
+  h1 {
+    text-align: center}
+  
+
+  
